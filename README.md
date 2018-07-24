@@ -1,0 +1,1 @@
+# Zabbix-haproxy-check-ssl
