@@ -19,7 +19,7 @@ for pem in $CERT_PATH*.pem; do
       #echo $CERT $FILE $DIFF 
         check_first_element
         printf "{"
-        printf "\"{#DBNAME}\":\"$DOMAIN\""
+        printf "\"{#DOMAINS}\":\"$DOMAIN\""
         printf "}"
 done 
 printf ' ]'
